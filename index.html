@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+</head>
+<style>
+    body{
+        /* margin: 0px;
+        padding: 0px; */
+        background-image: url(./img/carousel-1.jpg);
+        
+        /* background-repeat: no-repeat;
+        color: white; */
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    /* .center{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        border: 2px solid red;
+    } */
+    .right{
+        position: absolute;
+        right: 170px;
+        top: 20px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+</style>
+<body class="body">
+<header>
+    <div class="left">
+       <img src="./img/logo.png" style="width: 90px; border-radius: 60px; box-shadow: 10px;">
+    </div>
+    
+    <!-- <div class="right">right</div> -->
+    <div class="right">
+        <ul class="navbar">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Service</a></li>
+            <li><a href="./Menu.html">Menu</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
+
+        </ul>
+    </div>
+</header>
+<div>
+    <form action="" style=" width: 30%; margin-top: 15%; height: 250px;">
+        <fieldset style="border-color: gray; border-radius: 10px;">
+            <legend style="color:rgb(242, 175, 7); font-size: 20px;">Wel-Come Our Coffee Shop:</legend>
+            <br><br>
+            <label for="email" style="color:white;">Email:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="email" name="email"><br><br>
+            <label for="password" style="color:white;">Password:</label>
+            <input type="password" id="password" name="password"><br><br><br>
+            <a href="#"><input type="submit" value="Submit"></a>
+           </fieldset>
+ 
+    </form>
+</div>
+</body>
+</html>
